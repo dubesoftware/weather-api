@@ -1,9 +1,6 @@
-import random, traceback
+import random
 
 from django.http import JsonResponse
-from django.shortcuts import HttpResponse
-from django.utils.datastructures import MultiValueDictKeyError
-
 from .services import HTTP_MESSAGES, REQUEST_LOCATIONS, WeatherAPI
 
 
